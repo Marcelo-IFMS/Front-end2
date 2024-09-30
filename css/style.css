@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container-menu {
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+.container-item {
+    float: left;
+    width: calc(100% / 3);
+    min-width: 200px;
+    max-width: calc(100% / 3);
+}
+
+.container-item > div {
+    border-radius: 10px;
+    min-height: 100%;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    background-color: bisque;
+}
+.teste{ background-color: blueviolet;}
