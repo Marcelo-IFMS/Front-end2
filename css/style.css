@@ -1,47 +1,46 @@
 
-* {
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,121,145,1) 100%);
+    height: 99vh;
+
+}
+*{
     margin: 0;
     padding: 0;
-    background-color: wheat;
 }
 
 .container {
-    display: block;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    width: 99%;
+    padding: 5px;
+    margin: 1px;
 }
 
 .container-menu {
-    border-radius: 10px;
-    background-color: antiquewhite;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
+    background: rgb(0,121,145);
+    background: linear-gradient(180deg, rgba(0,121,145,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: center;
+}
     
+.container-item1 {
+    background-color: bisque;
+    text-align: justify;
 }
-.container-item {
+.container-item3 {
     float: left;
-    width: calc(100% / 3);
+    width: calc(97% / 3);
     min-width: 200px;
-    max-width: calc(100% / 3);
-}
-
-.container-item > div {
-    border-radius: 10px;
-    min-height: 100%;
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    padding: 10px;
-    margin: 5px;
+    min-height: 10vh;
+    text-align: justify;
     background-color: bisque;
 }
-.teste{ background-color: blueviolet;}
-.teste2{ background-color: blueviolet;}
 
 /* 
 
@@ -49,4 +48,6 @@ Conmplementos
 >IntelliSense for CSS class names in HTML
 
 F1>
+
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp  tamanho da tela reajuste
 */
